@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regresi" time="115.991" tests="6" failures="0" errors="0">
+   <testsuite name="Regresi" tests="6" failures="0" errors="0" time="115.991" skipped="0" timestamp="2022-12-19 15:52:35" hostname="amalia - 192.168.1.10" id="Test Suites/Regression 16122022/Regresi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221"/>
+         <property name="logFiles" value="/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/execution0.log"/>
+         <property name="attachments" value="/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671439975744.png, /Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671439990309.png, /Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440006005.png, /Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440031114.png, /Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440049551.png, /Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440070360.png"/>
+         <property name="hostName" value="amalia - 192.168.1.10"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="5326dcaa859bc666192293ec2b2fe951"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login Null Value" time="21.065" classname="Test Cases/Login/Login Null Value" status="PASSED">
+         <system-out><![CDATA[2022-12-19 15:52:35 - [TEST_CASE][PASSED] - Test Cases/Login/Login Null Value: Test Cases/Login/Login Null Value
+
+2022-12-19 15:52:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 15:52:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 15:52:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 15:52:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 15:52:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:52:50 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), ""): Text '' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:52:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:52:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:52:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:52:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Swag Labs/Null"), "Epic sadface: Username is required"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/Null' are matched.
+
+2022-12-19 15:52:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/Null' are matched.
+
+2022-12-19 15:52:55 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-12-19 15:52:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671439975744.png]]
+
+2022-12-19 15:52:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 15:52:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login Wrong Password" time="13.745" classname="Test Cases/Login/Login Wrong Password" status="PASSED">
+         <system-out><![CDATA[2022-12-19 15:52:56 - [TEST_CASE][PASSED] - Test Cases/Login/Login Wrong Password: Test Cases/Login/Login Wrong Password
+
+2022-12-19 15:52:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 15:52:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 15:52:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 15:53:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 15:53:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:53:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:53:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:53:07 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:53:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:53:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:53:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Swag Labs/Wrong Password"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/Wrong Password' are matched.
+
+2022-12-19 15:53:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/Wrong Password' are matched.
+
+2022-12-19 15:53:09 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-12-19 15:53:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671439990309.png]]
+
+2022-12-19 15:53:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 15:53:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/LoginValid" time="15.954" classname="Test Cases/Login/LoginValid" status="PASSED">
+         <system-out><![CDATA[2022-12-19 15:53:10 - [TEST_CASE][PASSED] - Test Cases/Login/LoginValid: Test Cases/Login/LoginValid
+
+2022-12-19 15:53:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 15:53:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 15:53:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 15:53:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 15:53:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:53:18 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), user): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:53:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:53:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), pass): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:53:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:53:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:53:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Swag Labs/span_Products"), "PRODUCTS"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/span_Products' are matched.
+
+2022-12-19 15:53:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/span_Products' are matched.
+
+2022-12-19 15:53:25 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-12-19 15:53:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440006005.png]]
+
+2022-12-19 15:53:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 15:53:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Checkout 1 Item" time="24.791" classname="Test Cases/Checkout/Checkout 1 Item" status="PASSED">
+         <system-out><![CDATA[2022-12-19 15:53:26 - [TEST_CASE][PASSED] - Test Cases/Checkout/Checkout 1 Item: Test Cases/Checkout/Checkout 1 Item
+
+2022-12-19 15:53:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 15:53:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 15:53:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 15:53:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 15:53:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:53:34 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:53:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), user): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:53:37 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:53:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), pass): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:53:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:53:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-12-19 15:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-12-19 15:53:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/a_1"), "1"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/a_1' are matched.
+
+2022-12-19 15:53:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/a_1' are matched.
+
+2022-12-19 15:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1_1")): Object: 'Object Repository/Page_Swag Labs/a_1_1' is clicked on
+
+2022-12-19 15:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1_1' is clicked on
+
+2022-12-19 15:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-12-19 15:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-12-19 15:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "galang"): Text 'galang' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-12-19 15:53:45 - [MESSAGE][PASSED] - Text 'galang' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-12-19 15:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "satria"): Text 'satria' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-12-19 15:53:47 - [MESSAGE][PASSED] - Text 'satria' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-12-19 15:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "68312"): Text '68312' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-12-19 15:53:48 - [MESSAGE][PASSED] - Text '68312' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-12-19 15:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-12-19 15:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-12-19 15:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2022-12-19 15:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2022-12-19 15:53:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER"), "THANK YOU FOR YOUR ORDER"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' are matched.
+
+2022-12-19 15:53:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' are matched.
+
+2022-12-19 15:53:50 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-12-19 15:53:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440031114.png]]
+
+2022-12-19 15:53:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 15:53:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Add 1 Cart" time="18.714" classname="Test Cases/Cart/Add 1 Cart" status="PASSED">
+         <system-out><![CDATA[2022-12-19 15:53:51 - [TEST_CASE][PASSED] - Test Cases/Cart/Add 1 Cart: Test Cases/Cart/Add 1 Cart
+
+2022-12-19 15:53:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 15:53:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 15:53:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 15:53:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 15:53:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:54:01 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), user): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:54:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:54:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), pass): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:54:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-12-19 15:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-12-19 15:54:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/a_1"), "1"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/a_1' are matched.
+
+2022-12-19 15:54:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/a_1' are matched.
+
+2022-12-19 15:54:09 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-12-19 15:54:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440049551.png]]
+
+2022-12-19 15:54:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 15:54:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Add Multiple Cart" time="21.026" classname="Test Cases/Cart/Add Multiple Cart" status="PASSED">
+         <system-out><![CDATA[2022-12-19 15:54:10 - [TEST_CASE][PASSED] - Test Cases/Cart/Add Multiple Cart: Test Cases/Cart/Add Multiple Cart
+
+2022-12-19 15:54:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 15:54:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 15:54:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 15:54:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 15:54:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:54:18 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-12-19 15:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), user): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:54:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-12-19 15:54:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), pass): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:54:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-12-19 15:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-12-19 15:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-12-19 15:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-12-19 15:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2022-12-19 15:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2022-12-19 15:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1_2")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2022-12-19 15:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2022-12-19 15:54:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1_2_3")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2_3' is clicked on
+
+2022-12-19 15:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2_3' is clicked on
+
+2022-12-19 15:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4' is clicked on
+
+2022-12-19 15:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4' is clicked on
+
+2022-12-19 15:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4_5")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4_5' is clicked on
+
+2022-12-19 15:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4_5' is clicked on
+
+2022-12-19 15:54:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/a_6"), "6"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/a_6' are matched.
+
+2022-12-19 15:54:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/a_6' are matched.
+
+2022-12-19 15:54:30 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-12-19 15:54:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/amalia/Downloads/SauceDemo/Reports/20221219_155221/Regression 16122022/Regresi/20221219_155221/1671440070360.png]]
+
+2022-12-19 15:54:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 15:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-19 15:52:35 - [TEST_SUITE][PASSED] - Regresi: Test Cases/Cart/Add Multiple Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
